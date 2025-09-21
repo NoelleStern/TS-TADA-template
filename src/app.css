@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@plugin 'daisyui' {
+  logs: false;
+  themes: all;
+}
+
+html, body, #app {
+  min-height: 100vh;
+}
